@@ -1,0 +1,120 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#f0f2f5;
+margin:0;
+padding:0;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+h1{
+background:#1877f2;
+color:white;
+width:100%;
+text-align:center;
+padding:15px;
+margin:0;
+}
+
+.container{
+width:500px;
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:8px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+button{
+background:#1877f2;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+margin-top:5px;
+}
+
+button:hover{
+background:#145dbf;
+}
+
+.post{
+background:white;
+padding:15px;
+margin-top:15px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post p{
+margin:5px 0;
+}
+
+.comment{
+background:#f0f2f5;
+padding:8px;
+border-radius:8px;
+margin-top:5px;
+font-size:14px;
+border-left:3px solid #1877f2;
+}
+
+.profile-card{
+
+text-align:center;
+padding:20px;
+background:white;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+
+}
+
+.navbar{
+width:100%;
+background:#1877f2;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;
+box-sizing:border-box;
+}
+
+.navbar button{
+background:white;
+color:#1877f2;
+margin-left:10px;
+}
+
+.feed{
+width:500px;
+margin-top:20px;
+}
+
+.feed h2{
+margin-left:5px;
+}
+
+.profile-card{
+
+width:400px;
+background:white;
+padding:20px;
+margin:20px auto;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.2);
+text-align:center;
+
+}
